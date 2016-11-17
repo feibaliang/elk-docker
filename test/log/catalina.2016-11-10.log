@@ -1,0 +1,118 @@
+Nov 10, 2016 12:22:40 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/gameserver]
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@6177f23e]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@5b733810]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@daf3cd1]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6bc1c45b]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@7e4269a1]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@3a2509c9]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@55a588f1]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@66c1b224]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@36968e30]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@56510d4f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@6340e9ce]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$1] (value [com.heishi.commons.util.DateUtil$1@3ab6064a]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@4570263]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6c5db3ce]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@7bc7d0f6]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@7b6805f6]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$1] (value [com.heishi.commons.util.DateUtil$1@3ab6064a]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@6a5f98c5]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@2a26e412]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@5f476f5c]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@4ae031e2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$1] (value [com.heishi.commons.util.DateUtil$1@3ab6064a]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@4f76f1a0]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@44eb12d5]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@2521814c]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@3aafb79f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@664045d2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@5a81270]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@9c0f670]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@5d5279f6]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6965d157]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@51c53557]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6bc1c45b]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6a310cb1]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a386eee]) and a value of type [com.caucho.services.server.ServiceContext] (value [com.caucho.services.server.ServiceContext@4efae91e]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:41 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3a386eee]) and a value of type [com.caucho.services.server.ServiceContext] (value [com.caucho.services.server.ServiceContext@3aded914]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 10, 2016 12:22:50 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 10, 2016 12:22:51 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 10, 2016 12:22:51 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Nov 10, 2016 4:32:46 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 10, 2016 4:32:46 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 10, 2016 4:32:46 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 10, 2016 4:32:46 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 10, 2016 4:32:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 817 ms
+Nov 10, 2016 4:32:46 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 10, 2016 4:32:46 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 10, 2016 4:32:46 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 10, 2016 4:32:47 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 10, 2016 4:33:17 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 10, 2016 4:33:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 30622 ms

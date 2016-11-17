@@ -38,7 +38,7 @@ RUN set -x \
 
 ### install Elasticsearch
 
-ENV ES_VERSION 5.0.0
+ENV ES_VERSION 5.0.1
 ENV ES_GID 991
 ENV ES_UID 991
 
@@ -57,7 +57,7 @@ RUN groupadd -r elasticsearch -g ${ES_GID} \
 
 ### install Logstash
 
-ENV LOGSTASH_VERSION 5.0.0
+ENV LOGSTASH_VERSION 5.0.1
 ENV LOGSTASH_HOME /opt/logstash
 ENV LOGSTASH_PACKAGE logstash-${LOGSTASH_VERSION}.tar.gz
 ENV LOGSTASH_GID 992
@@ -79,7 +79,7 @@ RUN sed -i -e 's#^LS_HOME=$#LS_HOME='$LOGSTASH_HOME'#' /etc/init.d/logstash \
 
 ### install Kibana
 
-ENV KIBANA_VERSION 5.0.0
+ENV KIBANA_VERSION 5.0.1
 ENV KIBANA_HOME /opt/kibana
 ENV KIBANA_PACKAGE kibana-${KIBANA_VERSION}-linux-x86_64.tar.gz
 ENV KIBANA_GID 993
@@ -122,6 +122,7 @@ ADD ./02-beats-input.conf /etc/logstash/conf.d/02-beats-input.conf
 ADD ./10-syslog.conf /etc/logstash/conf.d/10-syslog.conf
 ADD ./11-nginx.conf /etc/logstash/conf.d/11-nginx.conf
 ADD ./30-output.conf /etc/logstash/conf.d/30-output.conf
+ADD ./01-testlog4j.conf /etc/logstash/conf.d/01-testlog4j.conf
 
 # patterns
 ADD ./nginx.pattern ${LOGSTASH_HOME}/patterns/nginx
@@ -137,6 +138,11 @@ RUN chmod 644 /etc/logrotate.d/elasticsearch \
  && chmod 644 /etc/logrotate.d/logstash \
  && chmod 644 /etc/logrotate.d/kibana
 
+###############################################################################
+#                                   testdata
+###############################################################################
+
+ADD test/log /var/log/test
 
 ###############################################################################
 #                                   START

@@ -1,0 +1,796 @@
+Nov 03, 2016 6:57:25 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/gameserver]
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@99] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@100] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioSocketAcceptor-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg13] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg14] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg15] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg17] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg18] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg19] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg20] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg21] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg22] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg23] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg24] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg25] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg26] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg27] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg28] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg29] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg30] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg31] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg32] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg33] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg34] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg35] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg36] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg37] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg38] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg39] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg40] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService13] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService14] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService15] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService17] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService18] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService19] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService20] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService21] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService22] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService23] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService24] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService25] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService26] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [minaprocess3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService27] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService28] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService29] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService30] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService31] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService32] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService33] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService34] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService35] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService36] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService37] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService38] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService39] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService40] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService41] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService42] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService43] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService44] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService45] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService46] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService47] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService48] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService49] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService50] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService51] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService52] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService53] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService54] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService55] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService56] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService57] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService58] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService59] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService60] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService61] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService62] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService63] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService64] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService65] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService66] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService67] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@507025dd]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@72c5f96c]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@237a5c52]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 6:57:26 PM org.apache.catalina.startup.HostConfig checkResources
+WARNING: Error while removing context [/gameserver]
+java.lang.NoClassDefFoundError: com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil$1
+	at java.lang.Class.getDeclaringClass(Native Method)
+	at java.lang.Class.getEnclosingClass(Class.java:1107)
+	at java.lang.Class.getCanonicalName(Class.java:1191)
+	at org.apache.catalina.loader.WebappClassLoader.getPrettyClassName(WebappClassLoader.java:2482)
+	at org.apache.catalina.loader.WebappClassLoader.clearThreadLocalMap(WebappClassLoader.java:2431)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesThreadLocals(WebappClassLoader.java:2349)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1921)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1833)
+	at org.apache.catalina.loader.WebappLoader.stop(WebappLoader.java:740)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4920)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1212)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1382)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:306)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1389)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1653)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1662)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1642)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$1
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1680)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	... 20 more
+
+Nov 03, 2016 7:20:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 7:20:27 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 7:20:29 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:20:30 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 03, 2016 7:20:53 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 03, 2016 7:20:53 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 03, 2016 7:20:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 03, 2016 7:20:54 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:20:54 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 720 ms
+Nov 03, 2016 7:20:54 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 03, 2016 7:20:54 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 03, 2016 7:20:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 7:20:54 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 7:21:26 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:21:26 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 32205 ms
+Nov 03, 2016 7:32:54 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:32:55 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@20c26989]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3b9eb22c]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@2fc38548]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@4d635277]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@4d829a83]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:55 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@396e3636]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@72a930ae]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:32:56 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:33:06 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 03, 2016 7:33:06 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 03, 2016 7:33:07 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 03, 2016 7:33:07 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:33:07 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 705 ms
+Nov 03, 2016 7:33:07 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 03, 2016 7:33:07 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 03, 2016 7:33:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 7:33:07 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 7:33:34 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:33:34 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 27566 ms
+Nov 03, 2016 7:39:05 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/gameserver]
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [OkHttp ConnectionPool] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@99] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [FrameUpdateService@100] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorService6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioSocketAcceptor-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [NioProcessor-16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [boltclient1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [minaprocess1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg13] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg14] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg15] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg17] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg18] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg19] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg20] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg21] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg22] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg23] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg24] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg25] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg26] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg27] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg28] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg29] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg30] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg31] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg32] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg33] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg34] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg35] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg36] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg37] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg38] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg39] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [sendmsg40] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService11] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService12] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService13] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService14] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService15] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService16] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService17] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService18] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [executorDBService19] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_QuartzSchedulerThread] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@1155780e]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@23ce806]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6ca4e30f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:39:05 PM org.apache.catalina.startup.HostConfig checkResources
+WARNING: Error while removing context [/gameserver]
+java.lang.NoClassDefFoundError: com/ibatis/sqlmap/engine/mapping/result/ResultObjectFactoryUtil$1
+	at java.lang.Class.getDeclaringClass(Native Method)
+	at java.lang.Class.getEnclosingClass(Class.java:1107)
+	at java.lang.Class.getCanonicalName(Class.java:1191)
+	at org.apache.catalina.loader.WebappClassLoader.getPrettyClassName(WebappClassLoader.java:2482)
+	at org.apache.catalina.loader.WebappClassLoader.clearThreadLocalMap(WebappClassLoader.java:2431)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferencesThreadLocals(WebappClassLoader.java:2349)
+	at org.apache.catalina.loader.WebappClassLoader.clearReferences(WebappClassLoader.java:1921)
+	at org.apache.catalina.loader.WebappClassLoader.stop(WebappClassLoader.java:1833)
+	at org.apache.catalina.loader.WebappLoader.stop(WebappLoader.java:740)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4920)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:936)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1212)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1382)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:306)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1389)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1653)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1662)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1642)
+	at java.lang.Thread.run(Thread.java:722)
+Caused by: java.lang.ClassNotFoundException: com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$1
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1680)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1526)
+	... 20 more
+
+Nov 03, 2016 7:39:19 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:39:20 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 03, 2016 7:39:20 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:49:26 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 03, 2016 7:49:26 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 03, 2016 7:49:26 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 03, 2016 7:49:26 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:49:26 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 680 ms
+Nov 03, 2016 7:49:26 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 03, 2016 7:49:26 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 03, 2016 7:49:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 7:49:27 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 7:49:56 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:49:56 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 29209 ms
+Nov 03, 2016 7:58:34 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:58:35 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [OkHttp ConnectionPool] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@5f1bb5ff]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1449a921]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6ffebfee]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3deadbb3]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@36f5b9a]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3e6dd39]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@29c5cb2f]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3deadbb3]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@789e9015]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:35 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@1449a921]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@72059090]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 7:58:36 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:58:51 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 03, 2016 7:58:51 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 03, 2016 7:58:51 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 03, 2016 7:58:51 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:58:51 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 639 ms
+Nov 03, 2016 7:58:51 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 03, 2016 7:58:51 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 03, 2016 7:58:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 7:58:51 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 7:59:18 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 7:59:18 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 27099 ms
+Nov 03, 2016 8:03:17 PM org.apache.coyote.http11.Http11Protocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 8:03:18 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+SEVERE: The web application [/gameserver] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [OkHttp ConnectionPool] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [Okio Watchdog] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/gameserver] appears to have started a thread named [DefaultQuartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [com.heishi.commons.util.DateUtil$3] (value [com.heishi.commons.util.DateUtil$3@7600640a]) and a value of type [java.text.SimpleDateFormat] (value [java.text.SimpleDateFormat@f67a0200]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@13a8090c]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@7ce9fce8]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@65db2369]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@7bbe50f9]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@bb64ae7]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@6cef89b2]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@65db2369]) and a value of type [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil.FactorySettings] (value [com.ibatis.sqlmap.engine.mapping.result.ResultObjectFactoryUtil$FactorySettings@62393cfd]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:18 PM org.apache.catalina.loader.WebappClassLoader clearThreadLocalMap
+SEVERE: The web application [/gameserver] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@13a8090c]) and a value of type [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl] (value [com.ibatis.sqlmap.engine.impl.SqlMapSessionImpl@1bd3386c]) but failed to remove it when the web application was stopped. This is very likely to create a memory leak.
+Nov 03, 2016 8:03:19 PM org.apache.coyote.http11.Http11Protocol destroy
+INFO: Stopping Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 8:03:36 PM org.apache.catalina.startup.Embedded initDirs
+SEVERE: Cannot find specified temporary folder at /home/app/tomcat-gameserver_9999/temp
+Nov 03, 2016 8:03:36 PM org.apache.tomcat.util.digester.Digester endElement
+WARNING:   No rules found matching 'Server/ResourceLink'.
+Nov 03, 2016 8:03:36 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Nov 03, 2016 8:03:37 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 8:03:37 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 650 ms
+Nov 03, 2016 8:03:37 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 03, 2016 8:03:37 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.35
+Nov 03, 2016 8:03:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory gameserver
+Nov 03, 2016 8:03:37 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/app/tomcat-gameserver_9999/webapps/gameserver/WEB-INF/lib/servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+Nov 03, 2016 8:04:05 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8081
+Nov 03, 2016 8:04:05 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 28599 ms
